@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0
+,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&
+family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,
+200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>E-mail enviado!</title>
+</head>
+<body>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-shadow: border-box;
+        }
+        :root
+        {
+            --font: 'Montserrat', sans-serif;
+            --prime-font: 'Work Sans', sans-serif;
+            --bg: #1a1c20;
+            --main-color: #f9813a;
+            --main-font-color: #fdfbfb;
+            --sec-font-color: #fcf1f1b4;
+        }
+
+        body
+        {
+            background: var(--bg);
+            font-family: var(--font);
+            font-weight: 500;
+            color: var(--main-font-color);
+            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content
+        {
+            width: 390px;
+            height: 70px;
+            margin: 0 auto;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            position:fixed;
+            top: 45%;
+            left: 36%;
+        }
+        .content a
+        {
+            text-decoration: none;
+            color: var(--sec-font-color);
+            margin: 0.3em;
+            padding: 0.5em 1.5em;
+            border-radius: 10px;
+            width: 84%;
+            text-align: center;
+            font-size: 20px;
+        }
+        .content a:hover
+        {
+            transition: background .8s;
+            background: var(--main-color);    
+        }
+    </style>
+
+    <div class="content">
+        <h1>  Obrigado pelo contato!</h1>
+        <a href="https://vitorandradelopes.github.io/Portfolio-Pagina_Pessoal/">Voltar</a>
+    </div>
+</html>
