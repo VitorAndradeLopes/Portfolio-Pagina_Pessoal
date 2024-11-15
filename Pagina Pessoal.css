@@ -95,7 +95,8 @@ body
 }
 .nav .logo
 {
-    
+    width: 40px;
+    height: 60px
 }
 
 .nav ol
